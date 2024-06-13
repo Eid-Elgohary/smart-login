@@ -1,0 +1,72 @@
+
+
+*{
+   font-family:"Titillium Web",sans-serif ;
+   text-transform: capitalize;
+}
+main{
+   background: #24353F;
+}
+.logining{
+   background: #24353F;
+   box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.logining h1{
+   color: rgb(23, 162, 184);
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 500;
+}
+.logining input{
+   background: #24353F;
+   color: white;
+   text-transform: none;
+}
+.logining input:focus{
+   background: #24353F;
+   box-shadow: 0 0 0 0 transparent ;
+   color: white;
+}
+.logining input::placeholder{
+   color: white;
+}
+.logining a{
+   cursor: pointer;
+   text-decoration: none;
+}
+.logining a:hover{
+   text-decoration: underline;
+}
+#invalid{
+   color: red;
+}
+
+/* welcome page */
+.navbar{
+   background: #24353F;
+   box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+a.navbar-brand{
+   font-size: 20px;
+   line-height: 30px;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: aliceblue;
+}
+a.nav-link{
+   background: #24353F !important;
+   border: 2px solid goldenrod !important;
+   transition: .4s;
+   color: white !important;
+}
+a.nav-link:hover{
+   background: gold !important;
+}
+.welcome{
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 500;
+   color: 
+   #17A2B8;
+   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

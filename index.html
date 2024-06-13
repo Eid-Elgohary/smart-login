@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css files/style.css">
+ <link rel="stylesheet" href="css files/bootstrap.min.css">
+
+ <title>smart login</title>
+
+</head>
+<body>
+   
+   <main class="vh-100 p-5 ">
+      <div class="container text-center">
+         <div class="logining w-75 mx-auto ">
+            <div class="login  p-5">
+               <h1>smart login system</h1>
+               <input type="email" class="my-3 mail form-control" placeholder="enter your email">
+               <input type="password" class="my-3 pass form-control" placeholder="enter your password">
+               <p id="invalid"></p>
+               <button class="my-3 btn logBtn btn-outline-info w-100">login</button>
+               <p class="text-white">don't have an account?<a class="text-white signUpLink">sign up</a></p>
+            </div>
+
+            <div class="signUp d-none p-5">
+               <h1>smart login system</h1>
+               <input type="text" class="my-3 setName form-control" placeholder="enter your name">
+
+               <input type="email" class="my-3 setMail form-control" placeholder="enter your email">
+               <input type="password" class="my-3 setPass form-control" placeholder="enter your password">
+               <p id="validUser"></p>
+               <button class="my-3 btn btn-outline-info w-100 signUpBtn">signup</button>
+               <p class="text-white">you have an account?<a class="text-white signInLink">sign in</a></p>
+            </div>
+      </div>
+      </div>
+   </main>
+
+
+
+   <script src="js files/script.js" > </script>
+</body>
+</html>
