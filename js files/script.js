@@ -33,7 +33,7 @@ logBtn.addEventListener('click', function(){
          }else if(passInput.value != usersArr[i].userPass){
             errorP.innerHTML = 'incorrect password ';
          }else{
-            userName = usersArr[i].userName;
+            localStorage.setItem('welcomeName', usersArr[i].userName);
             window.location.href = 'welcome.html';
          }
       }
@@ -54,6 +54,7 @@ signUpBtn.addEventListener('click' , function(){
       resetForm();
       notificationP.style.color = "green";
       notificationP.innerHTML = "Success";
+      window.location.href = 'index.html';
    }
    // notificationP.style.color = "red";
 
